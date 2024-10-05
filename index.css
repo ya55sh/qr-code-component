@@ -1,21 +1,18 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: rgb(213, 225, 239);
+  letter-spacing: 0.03em;
+  line-height: 1.4;
 }
 
 a {
   text-decoration: none;
 }
 
-h2,
-p {
-  letter-spacing: 0.03em;
-  line-height: 1.4;
-}
-
 footer {
   text-align: center;
   font-weight: 400;
+  font-size: 1rem;
 }
 
 img {
@@ -34,10 +31,11 @@ img {
 }
 
 .card {
-  max-width: 16rem;
+  max-width: 16.5rem;
   padding: 0.8rem;
   border-radius: 0.8rem;
   background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .heading {
